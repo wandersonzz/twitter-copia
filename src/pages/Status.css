@@ -62,6 +62,10 @@
 
 @media (max-width: 780px) {
 
+    .answer-tweet-form label textarea {
+        font-size: 1rem;
+    }
+
     .answer-tweet-form button[type=submit] {
         padding: 0.75rem;
     }
