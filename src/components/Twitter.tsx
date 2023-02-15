@@ -9,7 +9,7 @@ interface TweetProps {
 export function Twitter({ content }: TweetProps) {
   return (
     <Link to="/status" className="tweet">
-      <img src="https://github.com/wandersonzz.png" alt="Foto Wanderson" />
+      <img src="https://github.com/wandersonzz.png" alt="Wanderson" />
       <div className="tweet-content">
         <div className="tweet-content-header">
           <strong>Wanderson Felipe</strong>
