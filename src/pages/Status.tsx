@@ -4,6 +4,7 @@ import { Separator } from "../components/Separator";
 import { Twitter } from "../components/Twitter";
 
 import "./Status.css";
+import { PaperPlaneRight } from "phosphor-react";
 
 /**
  * Fluxo de renderização
@@ -64,7 +65,10 @@ export function Status() {
           />
         </label>
 
-        <button type="submit">Answer</button>
+        <button type="submit">
+          <PaperPlaneRight />
+          <span>Answer</span>
+        </button>
       </form>
 
       {answers.map((answer) => {
